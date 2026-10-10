@@ -13,3 +13,12 @@ select name, salary from employees where department = "IT"
 # 3. Sort the results by salary from highest to lowest.
 
 select name, salary from employees where salary >= 40000 order by salary desc
+
+
+
+# Using the same employees table, write a query to retrieve the name, department, and salary of employees who satisfy both conditions:
+# 1. Their department is IT.
+# 2. Their salary is greater than ₹50,000.
+
+
+select name,department,salary from employees where department = "IT" and salary > 50000
