@@ -1,0 +1,8 @@
+Your database table: employees
+employee_id	name	department	salary	city
+1	Rahul	IT	50000	Noida
+2	Priya	HR	40000	Delhi
+3	Aman	IT	65000	Noida
+4	Neha	Finance	55000	Gurgaon
+5	Karan	HR	35000	Noida
+6	Simran	IT	70000	Delhi
