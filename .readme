@@ -1,0 +1,22 @@
+# MySQL Queries Practice
+
+This project is a small learning sandbox for practicing MySQL fundamentals, query writing, and data exploration.
+
+## Purpose
+- Practice SQL basics such as SELECT, WHERE, ORDER BY, GROUP BY, and JOIN
+- Work with sample data to test queries and results
+- Use Python as a helper for loading or processing MySQL-related examples
+
+## Project structure
+- `my-sql-fundamentals/` - main project folder
+- `my-sql-fundamentals/mysql-fundamentals-data.json` - sample dataset for exercises
+- `my-sql-fundamentals/my-fundamentals-practice.py` - Python file for practice scripts and query exercises
+
+## Suggested workflow
+1. Review the dataset in `mysql-fundamentals-data.json`.
+2. Write SQL queries to answer common database questions.
+3. Use the Python file to test scripts, automate tasks, or load data.
+4. Refine queries for correctness, clarity, and performance.
+
+## Notes
+This repository is intended as a personal practice project and may evolve as new MySQL exercises are added.
