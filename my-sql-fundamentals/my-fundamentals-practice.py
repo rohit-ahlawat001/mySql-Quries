@@ -23,3 +23,7 @@ select name, salary from employees where salary >= 40000 order by salary desc
 
 SELECT name, department, salary FROM employees WHERE department = 'IT' AND salary > 50000;
 
+
+
+# Using the same employees table, write a query to retrieve the name and department of employees who work in either the HR department or the Finance department.
+# Return only name and department. Include employees from both departments. Do not return employees from IT.
