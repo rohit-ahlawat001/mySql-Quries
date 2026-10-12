@@ -27,3 +27,5 @@ SELECT name, department, salary FROM employees WHERE department = 'IT' AND salar
 
 # Using the same employees table, write a query to retrieve the name and department of employees who work in either the HR department or the Finance department.
 # Return only name and department. Include employees from both departments. Do not return employees from IT.
+
+select name,department from employees where department = "HR"  or department = "Finance"
