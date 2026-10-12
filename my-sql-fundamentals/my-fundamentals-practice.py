@@ -29,3 +29,7 @@ SELECT name, department, salary FROM employees WHERE department = 'IT' AND salar
 # Return only name and department. Include employees from both departments. Do not return employees from IT.
 
 select name,department from employees where department = "HR"  or department = "Finance"
+
+# other solution for the same query could be: 
+
+WHERE department IN ('HR', 'Finance');
