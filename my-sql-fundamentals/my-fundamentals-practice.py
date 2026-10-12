@@ -21,4 +21,5 @@ select name, salary from employees where salary >= 40000 order by salary desc
 # 2. Their salary is greater than ₹50,000.
 
 
-select name,department,salary from employees where department = "IT" and salary > 50000
+SELECT name, department, salary FROM employees WHERE department = 'IT' AND salary > 50000;
+
