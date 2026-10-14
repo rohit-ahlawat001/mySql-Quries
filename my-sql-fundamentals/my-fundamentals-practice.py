@@ -40,3 +40,6 @@ WHERE department IN ('HR', 'Finance');
 # - Return only name and salary.
 # - Include both boundary values: ₹40,000 and ₹60,000.
 # - Do not include salaries outside this range
+
+# select name, salary from employees where salary between 40000 and 60000
+
