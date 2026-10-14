@@ -33,3 +33,10 @@ select name,department from employees where department = "HR"  or department = "
 # other solution for the same query could be: 
 
 WHERE department IN ('HR', 'Finance');
+
+
+# Using the same employees table, write a query to retrieve the name and salary of employees whose salary is between ₹40,000 and ₹60,000, inclusive.
+# Requirements:
+# - Return only name and salary.
+# - Include both boundary values: ₹40,000 and ₹60,000.
+# - Do not include salaries outside this range
