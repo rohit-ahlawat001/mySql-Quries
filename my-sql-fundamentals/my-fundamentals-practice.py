@@ -41,5 +41,8 @@ WHERE department IN ('HR', 'Finance');
 # - Include both boundary values: ₹40,000 and ₹60,000.
 # - Do not include salaries outside this range
 
-# select name, salary from employees where salary between 40000 and 60000
+select name, salary from employees where salary between 40000 and 60000
 
+# Another Questions
+
+SELECT name, salary FROM employees WHERE salary BETWEEN 40000 AND 60000;
