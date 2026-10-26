@@ -55,3 +55,8 @@ SELECT name, salary FROM employees WHERE salary BETWEEN 40000 AND 60000;
 # - Return only name, department, and city.
 # - Include employees from both cities.
 # - Exclude employees from Gurgaon.
+
+Query:-
+select name, department, city
+from employees
+where city in ("Noida", "Delhi")  #when we have two values then we can use the IN to write the query
