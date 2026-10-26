@@ -51,7 +51,7 @@ SELECT name, salary FROM employees WHERE salary BETWEEN 40000 AND 60000;
 # Task: Find employees from selected cities
 # Using the employees table, write a query to retrieve the name, department, and city of employees who live in either Noida or Delhi.
 
-Requirements:
-- Return only name, department, and city.
-- Include employees from both cities.
-- Exclude employees from Gurgaon.
+# Requirements:
+# - Return only name, department, and city.
+# - Include employees from both cities.
+# - Exclude employees from Gurgaon.
