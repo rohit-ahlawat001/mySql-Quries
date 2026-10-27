@@ -60,3 +60,13 @@ Query:-
 select name, department, city
 from employees
 where city in ("Noida", "Delhi")  #when we have two values then we can use the IN to write the query
+
+
+# Task: Imagine the employees table has an additional column called email, and some employees have no email address recorded.
+
+# Write a query to retrieve the name and email of employees whose email is missing (NULL).
+
+# Requirements:
+# - Return only name and email.
+# - Include only employees with a missing email value.
+# - Do not include employees with an existing email address.
